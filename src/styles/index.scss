@@ -1,4 +1,46 @@
 @import "~bootstrap/scss/bootstrap.scss";
+// .container{
+//     width: ;
+// }
+.trafficTop{
+    background-color: black;
+}
+
+.trafficBottom{
+    flex-direction:column;
+    display: flex; 
+    background-color: black;
+    border-radius: 20%;
+    width: 500px;
+    height: 1000px;
+}
+
+.redLight{
+    background-color: red;
+    border-radius: 100%;
+    height:300px
+}
+
+.yellowLight{
+    background-color: yellow;
+    border-radius: 100%;
+    height:300px
+
+}
+
+.greenLight{
+    background-color: green;
+    border-radius: 100%; 
+    height:300px
+ 
+}
+
+.selected{
+    background-color: hotpink;
+    //buscar como poner border shadow//
+}
+
+
 
 /* 
 
