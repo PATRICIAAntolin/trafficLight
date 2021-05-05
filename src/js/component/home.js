@@ -28,8 +28,12 @@ export function Home() {
 				<button
 					onClick={handleClickRed}
 					className={`redLight ${btnClassRed}`}></button>
-				<button className="yellowLight"></button>
-				<button className="greenLight"></button>
+				<button
+					onClick={handleClickYellow}
+					className={`yellowLight ${btnClassYellow}`}></button>
+				<button
+					onClick={handleClickGreen}
+					className={`greenLight ${btnClassGreen}`}></button>
 			</div>
 		</div>
 	);
